@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f0f0f0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    padding: 0 5%;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+    vertical-align: middle;
+    padding: 1.5% 0;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    position: fixed;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+    padding: 15px 0;
+}
+
+.search-bar {
+    padding: 0 30px;
+}
+
+.search-bar input {
+    color: gray;
+}
+
+.search-bar input:focus {
+    outline: none;
+}
+
+.right .menu {
+    padding: 0 30px;
+}
+
+.right input {
+    border: none;
+    border-bottom: 2px solid lightgray;
+}
+
+.right .li {
+    width: 100px;
+    display: inline-block;
+    color: #222222;
+}
+
+.right .li:hover {
+    color: #767676;
+}
+
+.main {
+    text-align: center;
+}
+
+.main span {
+    color: orange;
+    font-size: 40px;
+}
+
+#about {
+    background-color: white;
+}
+
+.about {
+    padding: 40px 0;
+}
+
+.about-text {
+    text-align: left; 
+}
+
+.underline {
+    padding: 20px 0;
+    margin-top: -60px;
+}
+
+.product {
+    padding: 40px 0;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+
+.row {
+    margin: 0 -5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: white;
+    height: 100%;
+    font-size: 20px;
+}
+
+.row img {
+    width: 100%;
+}
+
+.support {
+    padding: 40px 0;
+}
+
+.support .button {
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+.support p {
+
+    width: 100%;
+    background-color: orange;
+    padding: 5px 5px;
+    border-radius: 30px;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.support p:hover {
+    color: lightgrey;
+}
+
+.contact {
+    padding: 50px 0;
+}
+
+.contact .logo {
+    display: flex;
+    filter: invert(20%);
+    justify-content: center;
+}
+
+.contact .logo img{
+    width: 40px;
+    padding: 5px;
+}
+
+.contact input, textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 500px;
+    resize: vertical;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid orange;
+    background-color: #f0f0f0;
+}
+
+.contact input, textarea:focus {
+    outline: none;
+}
+
+.contact .form-input {
+    padding: 5px 30px;
+}
+
+.contact button {
+    color: white;
+    font-size: 15px;
+    background-color: orange;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 100px;
+}
+
+
+.copyright-logo {
+    justify-content: center;
+}
+
+.copyright-logo img {
+    padding: 10px 10%;
+}
+
+.footer {
+    width: 100%;
+    height: 150px;
+    background-color: #202424;
+    color: white;
+}
+
+.footer:active {
+    color: white;
+}
+
+.footer .container {
+    padding-top: 30px;
+}
+
+.footer-logo img {
+    width: 50px;
+    padding: 0 10px;
+    filter: invert(80%);
+}
+
+.footer .logo-gaomon {
+    padding-top: 20px;
+}
+
+.footer-list span {
+    color: white;
+}
+
+.footer .middle {
+    width: 100%;
+    text-align: center;
+    margin-top: -10px;
+    color: grey;
+    font-size: 14px;
+}
